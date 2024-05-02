@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 100svh;
+    display: grid;
+    grid-template: 200px 1fr / 300px 1fr
+}
+
+.sidebar {
+    background-color: #6b21a8;
+    grid-area: 1 / 1 / -1 / 2;
+
+}
+
+.header {
+    background-color: #e9d5ff;
+    grid-area: 1 / 2 / 2 / -1
+}
+
+.content-container {
+    background-color: #d8b4fe;
+    grid-area: 2 / 2 / -1 / -1
+}
